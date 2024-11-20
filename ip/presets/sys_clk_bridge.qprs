@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip>
+ <presets version="12.1">
+  <preset
+     name="Clock"
+     kind="altera_clock_bridge"
+     version="ALL"
+     description=""
+     board="Git_Test"
+     preset_category="sys">
+   <parameter name="EXPLICIT_CLOCK_RATE" value="50000000" />
+   <parameter name="NUM_CLOCK_OUTPUTS" value="1" />
+   <pin
+       name="in_clk.clk"
+       exported_signal_name="in_clk_clk"
+       location="PIN_AN18"
+       io_standard="1.8 V"
+       exported_interface_name="in_clk" />
+  </preset>
+ </presets>
+</ip>

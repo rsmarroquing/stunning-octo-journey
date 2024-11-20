@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip>
+ <presets version="12.1">
+  <preset
+     name="tse"
+     kind="altera_eth_tse"
+     version="ALL"
+     description=""
+     board="Git_Test"
+     preset_category="sys">
+   <parameter name="rf_p1_min_b" value="999" />
+   <parameter name="rf_p1_min_a" value="999" />
+   <parameter name="mdio_clk_div" value="40" />
+   <parameter name="EXAMPLE_DESIGN_VARIANT" value="0" />
+   <parameter name="starting_channel_number" value="0" />
+   <parameter name="enable_mac_flow_ctrl" value="false" />
+   <parameter name="enable_ecc" value="false" />
+   <parameter name="enable_magic_detect" value="true" />
+   <parameter name="rf_b1_ada_b" value="adaptable" />
+   <parameter name="rf_b1_ada_a" value="adaptable" />
+   <parameter name="phyip_en_synce_support" value="false" />
+   <parameter name="ND_XCVR_SET_USER_IDENTIFIER" value="0" />
+   <parameter name="rf_b0t_b" value="999" />
+   <parameter name="rf_b0t_a" value="999" />
+   <parameter name="rf_a_a" value="999" />
+   <parameter name="rf_a_b" value="999" />
+   <parameter name="useMDIO" value="true" />
+   <parameter name="enable_use_internal_fifo" value="true" />
+   <parameter name="enable_hidden_features" value="false" />
+   <parameter name="ctle_hf_val_a" value="999" />
+   <parameter name="stat_cnt_ena" value="true" />
+   <parameter name="GEN_SIM" value="0" />
+   <parameter name="core_variation" value="MAC_PCS" />
+   <parameter name="enable_sup_addr" value="false" />
+   <parameter name="ctle_lf_val_a" value="999" />
+   <parameter name="ctle_hf_val_b" value="999" />
+   <parameter name="ctle_lf_val_b" value="999" />
+   <parameter name="data_clocking_mode" value="xcvr" />
+   <parameter name="ctle_lf_val_ada_a" value="adaptable" />
+   <parameter name="ctle_hf_max_a" value="999" />
+   <parameter name="ctle_lf_max_b" value="999" />
+   <parameter name="ctle_lf_max_a" value="999" />
+   <parameter name="ctle_lf_val_ada_b" value="adaptable" />
+   <parameter name="ctle_hf_max_b" value="999" />
+   <parameter name="avmm2_enable_tse" value="false" />
+   <parameter name="phyip_pma_bonding_mode" value="x1" />
+   <parameter name="XCVR_SET_CAPABILITY_REG_ENABLE" value="0" />
+   <parameter name="enable_system_pll" value="false" />
+   <parameter name="enable_mac_vlan" value="false" />
+   <parameter name="HDL_FORMAT" value="1" />
+   <parameter name="ing_addr" value="15" />
+   <parameter name="rf_b0_b" value="999" />
+   <parameter name="XCVR_RCFG_JTAG_ENABLE" value="0" />
+   <parameter name="rf_b0_a" value="999" />
+   <parameter name="enable_sgmii" value="true" />
+   <parameter name="eg_addr" value="13" />
+   <parameter name="tstamp_fp_width" value="4" />
+   <parameter name="ctle_gs1_val_b" value="999" />
+   <parameter name="enable_gmii_loopback" value="false" />
+   <parameter name="ctle_gs1_val_a" value="999" />
+   <parameter name="rf_p2_max_b" value="999" />
+   <parameter name="rf_p2_max_a" value="999" />
+   <parameter name="ctle_hf_val_ada_b" value="adaptable" />
+   <parameter name="ctle_hf_val_ada_a" value="adaptable" />
+   <parameter name="rf_p2_val_a" value="999" />
+   <parameter name="cal_recipe_sel" value="NRZ_28Gbps_VSR" />
+   <parameter name="rf_p2_val_b" value="999" />
+   <parameter name="enable_shift16" value="true" />
+   <parameter name="System_PLL_Frequency" value="805.664062" />
+   <parameter name="XCVR_SET_USER_IDENTIFIER" value="0" />
+   <parameter name="rf_p1_val_ada_b" value="adaptable" />
+   <parameter name="enable_ptp_1step" value="false" />
+   <parameter name="phy_identifier" value="0" />
+   <parameter name="rf_reserved0_b" value="999" />
+   <parameter name="adpt_recipe_cnt" value="1" />
+   <parameter name="adpt_recipe_select" value="0" />
+   <parameter name="use_misc_ports" value="true" />
+   <parameter name="XCVR_SET_CSR_SOFT_LOGIC_ENABLE" value="0" />
+   <parameter name="ND_XCVR_SET_CAPABILITY_REG_ENABLE" value="0" />
+   <parameter name="enable_hd_logic" value="true" />
+   <parameter name="rf_p1_val_ada_a" value="adaptable" />
+   <parameter name="ena_hash" value="false" />
+   <parameter name="phyip_pll_base_data_rate" value="1250 Mbps" />
+   <parameter name="rf_b1_a" value="999" />
+   <parameter name="ctle_hf_min_a" value="999" />
+   <parameter name="rf_b1_b" value="999" />
+   <parameter name="ctle_hf_min_b" value="999" />
+   <parameter name="nf_phyip_rcfg_enable" value="true" />
+   <parameter name="rf_p2_val_ada_b" value="adaptable" />
+   <parameter name="rf_p2_val_ada_a" value="adaptable" />
+   <parameter name="ctle_lf_min_b" value="999" />
+   <parameter name="ctle_lf_min_a" value="999" />
+   <parameter name="rf_p1_max_b" value="999" />
+   <parameter name="rf_p1_max_a" value="999" />
+   <parameter name="rf_p1_val_b" value="999" />
+   <parameter name="rf_p1_val_a" value="999" />
+   <parameter name="XCVR_SET_PRBS_SOFT_LOGIC_ENABLE" value="0" />
+   <parameter name="ftile_phyip_rcfg_enable" value="false" />
+   <parameter name="ctle_gs2_val_a" value="999" />
+   <parameter name="rf_reserved0_a" value="999" />
+   <parameter name="ctle_gs2_val_b" value="999" />
+   <parameter name="rf_b0_ada_a" value="adaptable" />
+   <parameter name="rf_b0_ada_b" value="adaptable" />
+   <parameter name="enable_ena" value="32" />
+   <parameter name="rf_p0_val_b" value="999" />
+   <parameter name="ifGMII" value="MII_GMII" />
+   <parameter name="use_mac_clken" value="false" />
+   <parameter name="adpt_recipe_data2" value="" />
+   <parameter name="adpt_recipe_data1" value="" />
+   <parameter name="max_channels" value="1" />
+   <parameter name="rf_reserved1_a" value="999" />
+   <parameter name="adpt_recipe_data0" value="" />
+   <parameter name="nd_phyip_rcfg_enable" value="false" />
+   <parameter name="rf_reserved1_b" value="999" />
+   <parameter name="phyip_pll_type" value="CMU" />
+   <parameter name="ND_XCVR_RCFG_JTAG_ENABLE" value="0" />
+   <parameter name="ext_stat_cnt_ena" value="false" />
+   <parameter name="adpt_recipe_data7" value="" />
+   <parameter name="adpt_recipe_data6" value="" />
+   <parameter name="adpt_recipe_data5" value="" />
+   <parameter name="adpt_recipe_data4" value="" />
+   <parameter name="adpt_recipe_data3" value="" />
+   <parameter name="rf_p0_val_a" value="999" />
+   <parameter name="enable_alt_reconfig" value="false" />
+   <parameter name="enable_timestamping" value="false" />
+   <parameter name="adpt_multi_enable" value="1" />
+   <parameter name="rf_p0_val_ada_a" value="adaptable" />
+   <parameter name="l_av1_enable_tse" value="false" />
+   <parameter name="rf_p0_val_ada_b" value="adaptable" />
+   <parameter name="export_pwrdn" value="false" />
+   <parameter name="GEN_SYNTH" value="0" />
+   <parameter name="DEV_BOARD" value="0" />
+   <parameter name="rcp_load_enable" value="0" />
+   <parameter name="rf_p2_min_a" value="999" />
+   <parameter name="rf_p2_min_b" value="999" />
+   <parameter name="transceiver_type" value="GXB" />
+   <parameter name="enable_deterministic_latency" value="false" />
+   <parameter name="ND_XCVR_SET_CSR_SOFT_LOGIC_ENABLE" value="0" />
+   <pin
+       name="mac_mdio_connection.mdc"
+       exported_signal_name="eth_tse_mac_mdio_connection_mdc"
+       location="PIN_AR20"
+       io_standard="1.8 V"
+       exported_interface_name="eth_tse_mac_mdio_connection" />
+   <pin
+       name="serial_connection.rxp"
+       exported_signal_name="eth_tse_serial_connection_rxp"
+       location="PIN_AG33"
+       io_standard=""
+       exported_interface_name="eth_tse_serial_connection" />
+   <pin
+       name="serial_connection.txp"
+       exported_signal_name="eth_tse_serial_connection_txp"
+       location="PIN_AK39"
+       io_standard=""
+       exported_interface_name="eth_tse_serial_connection" />
+  </preset>
+ </presets>
+</ip>

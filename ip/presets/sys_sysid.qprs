@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip>
+ <presets version="12.1">
+  <preset
+     name="SYSID"
+     kind="altera_avalon_sysid_qsys"
+     version="ALL"
+     description=""
+     board="Git_Test"
+     preset_category="sys">
+   <parameter name="id" value="-87110914" />
+  </preset>
+ </presets>
+</ip>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip>
+ <presets version="12.1">
+  <preset
+     name="led_pio"
+     kind="altera_avalon_pio"
+     version="ALL"
+     description=""
+     board="Git_Test"
+     preset_category="sys">
+   <parameter name="bitModifyingOutReg" value="false" />
+   <parameter name="simDrivenValue" value="0" />
+   <parameter name="irqType" value="LEVEL" />
+   <parameter name="edgeType" value="RISING" />
+   <parameter name="width" value="8" />
+   <parameter name="generateIRQ" value="false" />
+   <parameter name="bitClearingEdgeCapReg" value="false" />
+   <parameter name="captureEdge" value="false" />
+   <parameter name="resetValue" value="0" />
+   <parameter name="direction" value="Output" />
+   <parameter name="simDoTestBenchWiring" value="false" />
+   <pin
+       name="external_connection.export[0]"
+       exported_signal_name="led_pio_external_connection_export[0]"
+       location="PIN_AR23"
+       io_standard=""
+       exported_interface_name="led_pio_external_connection" />
+   <pin
+       name="external_connection.export[1]"
+       exported_signal_name="led_pio_external_connection_export[1]"
+       location="PIN_AR22"
+       io_standard=""
+       exported_interface_name="led_pio_external_connection" />
+   <pin
+       name="external_connection.export[2]"
+       exported_signal_name="led_pio_external_connection_export[2]"
+       location="PIN_AM21"
+       io_standard=""
+       exported_interface_name="led_pio_external_connection" />
+   <pin
+       name="external_connection.export[3]"
+       exported_signal_name="led_pio_external_connection_export[3]"
+       location="PIN_AL20"
+       io_standard=""
+       exported_interface_name="led_pio_external_connection" />
+  </preset>
+ </presets>
+</ip>

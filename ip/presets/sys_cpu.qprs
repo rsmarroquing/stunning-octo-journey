@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip>
+ <presets version="12.1">
+  <preset
+     name="cpu"
+     kind="intel_niosv_m"
+     version="ALL"
+     description=""
+     board="Git_Test"
+     preset_category="sys">
+   <parameter name="enableDebug" value="true" />
+   <parameter name="hartId" value="0" />
+   <parameter name="resetOffset" value="0" />
+   <parameter name="enableECCLite" value="false" />
+   <parameter name="enableDebugReset" value="false" />
+   <parameter name="numGpr" value="32" />
+   <parameter name="useResetReq" value="false" />
+   <parameter name="resetSlave" value="sys_cpu_ram.s1" />
+   <parameter name="pipelineArch" value="true" />
+  </preset>
+ </presets>
+</ip>

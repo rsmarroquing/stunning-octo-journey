@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<board>
+ <name>Git_Test</name>
+ <vendor>Git_Altera</vendor>
+ <device_family>Arria 10</device_family>
+ <device_part>10AS066N3F40E2SG</device_part>
+ <version>1.0</version>
+ <product_url>unavailable.co</product_url>
+</board>

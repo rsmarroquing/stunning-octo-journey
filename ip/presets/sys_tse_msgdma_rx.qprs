@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip>
+ <presets version="12.1">
+  <preset
+     name="tse_msgdma_rx"
+     kind="altera_msgdma"
+     version="ALL"
+     description=""
+     board="Git_Test"
+     preset_category="sys">
+   <parameter name="MAX_STRIDE" value="1" />
+   <parameter name="PACKET_ENABLE" value="1" />
+   <parameter name="ERROR_ENABLE" value="1" />
+   <parameter name="MODE" value="2" />
+   <parameter name="NO_BYTEENABLES" value="0" />
+   <parameter name="STRIDE_ENABLE" value="0" />
+   <parameter name="RESPONSE_PORT" value="2" />
+   <parameter name="BURST_ENABLE" value="0" />
+   <parameter name="FIX_ADDRESS_WIDTH" value="32" />
+   <parameter name="DATA_WIDTH" value="32" />
+   <parameter name="PREFETCHER_READ_BURST_ENABLE" value="0" />
+   <parameter name="ERROR_WIDTH" value="6" />
+   <parameter name="MAX_BYTE" value="262144" />
+   <parameter name="PREFETCHER_ENABLE" value="1" />
+   <parameter name="PREFETCHER_MAX_READ_BURST_COUNT" value="2" />
+   <parameter name="DATA_FIFO_DEPTH" value="32" />
+   <parameter name="WRITE_RESPONSE_ENABLE" value="0" />
+   <parameter name="CHANNEL_WIDTH" value="8" />
+   <parameter name="USE_FIX_ADDRESS_WIDTH" value="0" />
+   <parameter name="DESCRIPTOR_FIFO_DEPTH" value="128" />
+   <parameter name="CHANNEL_ENABLE" value="0" />
+   <parameter name="ENHANCED_FEATURES" value="1" />
+   <parameter name="EXPOSE_ST_PORT" value="0" />
+   <parameter name="PREFETCHER_DATA_WIDTH" value="32" />
+   <parameter name="BURST_WRAPPING_SUPPORT" value="0" />
+   <parameter name="TRANSFER_TYPE" value="Aligned Accesses" />
+   <parameter name="PROGRAMMABLE_BURST_ENABLE" value="0" />
+   <parameter name="MAX_BURST_COUNT" value="2" />
+  </preset>
+ </presets>
+</ip>

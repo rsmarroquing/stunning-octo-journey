@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip>
+ <presets version="12.1">
+  <preset
+     name="Reset_bridge"
+     kind="altera_reset_bridge"
+     version="ALL"
+     description=""
+     board="Git_Test"
+     preset_category="sys">
+   <parameter name="NUM_RESET_OUTPUTS" value="1" />
+   <parameter name="ACTIVE_LOW_RESET" value="0" />
+   <parameter name="SYNCHRONOUS_EDGES" value="deassert" />
+   <parameter name="USE_RESET_REQUEST" value="0" />
+   <parameter name="SYNC_RESET" value="0" />
+  </preset>
+ </presets>
+</ip>

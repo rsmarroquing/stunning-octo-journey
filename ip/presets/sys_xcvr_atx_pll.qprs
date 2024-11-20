@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip>
+ <presets version="12.1">
+  <preset
+     name="xcvr_atx_pll"
+     kind="altera_xcvr_atx_pll_a10"
+     version="ALL"
+     description=""
+     board="Git_Test"
+     preset_category="sys">
+   <parameter name="rcfg_profile_data4" value="" />
+   <parameter name="rcfg_profile_data3" value="" />
+   <parameter name="rcfg_profile_data2" value="" />
+   <parameter name="rcfg_profile_data1" value="" />
+   <parameter name="rcfg_profile_data0" value="" />
+   <parameter name="bw_sel" value="medium" />
+   <parameter name="refclk_cnt" value="1" />
+   <parameter name="rcfg_profile_data7" value="" />
+   <parameter name="set_ref_clk_div" value="1" />
+   <parameter name="rcfg_profile_data6" value="" />
+   <parameter name="rcfg_profile_data5" value="" />
+   <parameter name="set_user_identifier" value="0" />
+   <parameter name="prot_mode" value="Basic" />
+   <parameter name="enable_analog_resets" value="0" />
+   <parameter name="set_m_counter" value="24" />
+   <parameter name="test_mode" value="0" />
+   <parameter name="set_k_counter" value="2000000000" />
+   <parameter name="rcfg_profile_select" value="1" />
+   <parameter name="enable_16G_path" value="0" />
+   <parameter name="set_manual_reference_clock_frequency" value="100.0" />
+   <parameter name="set_l_cascade_counter" value="15" />
+   <parameter name="refclk_index" value="0" />
+   <parameter name="set_fref_clock_frequency" value="156.25" />
+   <parameter name="generate_docs" value="0" />
+   <parameter name="rcfg_mif_file_enable" value="0" />
+   <parameter name="rcfg_profile_cnt" value="2" />
+   <parameter name="enable_manual_configuration" value="1" />
+   <parameter name="pma_width" value="64" />
+   <parameter name="enable_8G_path" value="1" />
+   <parameter name="enable_cascade_out" value="0" />
+   <parameter name="enable_ext_lockdetect_ports" value="0" />
+   <parameter name="enable_hip_cal_done_port" value="0" />
+   <parameter name="enable_hfreq_clk" value="0" />
+   <parameter name="enable_debug_ports_parameters" value="0" />
+   <parameter name="enable_pcie_clk" value="0" />
+   <parameter name="set_l_cascade_predivider" value="1" />
+   <parameter name="set_output_clock_frequency" value="1250.0" />
+   <parameter name="mcgb_aux_clkin_cnt" value="0" />
+   <parameter name="rcfg_reduced_files_enable" value="0" />
+   <parameter name="enable_pld_atx_cal_busy_port" value="1" />
+   <parameter name="rcfg_separate_avmm_busy" value="0" />
+   <parameter name="set_l_counter" value="16" />
+   <parameter name="rcfg_debug" value="0" />
+   <parameter name="set_rcfg_emb_strm_enable" value="0" />
+   <parameter name="generate_add_hdl_instance_example" value="0" />
+   <parameter name="enable_pll_reconfig" value="0" />
+   <parameter name="enable_fb_comp_bonding" value="0" />
+   <parameter name="rcfg_file_prefix" value="altera_xcvr_atx_pll_a10" />
+   <parameter name="set_hip_cal_en" value="0" />
+   <parameter name="enable_mcgb_pcie_clksw" value="0" />
+   <parameter name="set_capability_reg_enable" value="0" />
+   <parameter name="rcfg_multi_enable" value="0" />
+   <parameter name="set_csr_soft_logic_enable" value="0" />
+   <parameter name="enable_pld_mcgb_cal_busy_port" value="0" />
+   <parameter name="silicon_rev" value="false" />
+   <parameter name="rcfg_jtag_enable" value="0" />
+   <parameter name="set_auto_reference_clock_frequency" value="125.0" />
+   <parameter name="primary_pll_buffer" value="GX clock output buffer" />
+   <parameter name="rcfg_sv_file_enable" value="0" />
+   <parameter name="rcfg_enable_avmm_busy_port" value="0" />
+   <parameter name="message_level" value="error" />
+   <parameter name="set_altera_xcvr_atx_pll_a10_calibration_en" value="1" />
+   <parameter name="rcfg_h_file_enable" value="0" />
+   <parameter name="enable_bonding_clks" value="0" />
+   <parameter name="rcfg_txt_file_enable" value="0" />
+   <parameter name="support_mode" value="user_mode" />
+   <parameter name="mcgb_div" value="1" />
+   <parameter name="enable_mcgb" value="0" />
+  </preset>
+ </presets>
+</ip>
